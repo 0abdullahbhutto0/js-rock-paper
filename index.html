@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<h1>Rock - Paper - Scissors</h1>
+<div id="choices">
+  <button class="buttons" onclick="playGame('rock')">🤜</button>
+  <button class="buttons" onclick="playGame('paper')">🤚</button>
+  <button class="buttons" onclick="playGame('scissors')">✌</button>
+</div>
+<div id="playerDisplay">
+  Player:
+</div>
+<div id="ComputerDisplay">
+  Computer:
+</div>
+<div id="resultDisplay">
+</div>
+<div class="scoreDisplay">
+  <span id="playerScoreDisplay">Player Score: 0</span>
+</div>
+<div class="scoreDisplay">
+  <span id="computerScoreDisplay">Computer Score: 0</span>
+</div>
+
+ <script src="js/app.js"></script>
+</body>
+
+</html>
